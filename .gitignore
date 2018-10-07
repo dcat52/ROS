@@ -1,0 +1,10 @@
+.*
+devel/*
+logs/*
+build/*
+.rosinstall
+.rosinstall.bak
+.catkin_tools/
+
+*.pyc
+
