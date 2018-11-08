@@ -14,6 +14,7 @@ Create a directory for the custom ros install
 Clone the ROS-base repo to the directory
 ```
 mkdir -p ~/path/for/custom/ros/folder
+cd ~/path/for/custom/ros/folder
 git clone http://github.com/dcat52/ROS-base.git .
 ```
 
