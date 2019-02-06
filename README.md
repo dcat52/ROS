@@ -13,9 +13,9 @@ TBD
 Create a directory for the custom ros install
 Clone the ROS-base repo to the directory
 ```
-mkdir -p ~/path/for/custom/ros/folder
-cd ~/path/for/custom/ros/folder
-git clone http://github.com/dcat52/ROS-base.git .
+mkdir -p ./path-for-custom-ros-folder
+cd ./path-for-custom-ros-folder
+git clone http://github.com/dcat52/ROS.git .
 ```
 
 Run install script which will pull from chris_scripts*
@@ -41,7 +41,7 @@ Verify custom ROS directory is setup correctly
 ```
 roscd
 ```
-You should now be located within ~/path/for/custom/ros/folder/src
+You should now be located within ./path-for-custom-ros-folder/src
 (Note addition of "/src" to the directory)
 
 Congrats!
